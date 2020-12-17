@@ -6,6 +6,6 @@ post_upgrade() {
 	systemctl enable NetworkManager
 	systemctl enable ly
 	systemctl enable cups
-	systemctl bluetooth
-	systemctl syncthing@speece.service
+	systemctl enable bluetooth
+	systemctl enable syncthing@speece.service
 }
