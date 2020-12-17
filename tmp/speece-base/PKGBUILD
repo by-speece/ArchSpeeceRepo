@@ -1,11 +1,12 @@
 pkgname=speece-base
-pkgver=0.0.2
+pkgver=0.0.3
 pkgrel=1
 pkgdesc="Podstawowe pakiety konfiguracyjne ArchSpeeceRepo"
 arch=('any')
 url="https://github.com/by-speece/ArchSpeeceRepo"
 license=('GPL3')
 depends=(
+	'linux-firmware'
 	'os-prober'
 	'efibootmgr'
 	'bash'
