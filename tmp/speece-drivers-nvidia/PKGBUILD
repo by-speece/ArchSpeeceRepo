@@ -1,0 +1,13 @@
+pkgname=speece-drivers-nvidia
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Nvidia Drivers"
+arch=('any')
+license=('MIT')
+depends=(
+	'lib32-nvidia-utils'
+	'cuda'
+	'nvidia'
+	'nvidia-utils'
+	'nvidia-settings'
+)

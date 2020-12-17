@@ -1,0 +1,12 @@
+pkgname=speece-drivers-intel
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="intel drivers"
+arch=('any')
+license=('MIT')
+depends=(
+	'intel-ucode'
+	'mesa'
+	'xf86-video-intel'
+	'vulkan-intel'
+)

@@ -1,0 +1,11 @@
+post_install() {
+    post_upgrade
+}
+
+post_upgrade() {
+	systemctl enable NetworkManager
+	systemctl enable ly
+	systemctl enable cups
+	systemctl bluetooth
+	systemctl syncthing@speece.service
+}

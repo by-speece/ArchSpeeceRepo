@@ -1,0 +1,16 @@
+pkgname=speece-drivers-radeon
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="speece-drivers-radeon"
+arch=('any')
+license=('MIT')
+depends=(
+	'mesa'
+	'lib32-mesa'
+	'xf86-video-amdgpu'
+	'lib32-vulkan-radeon'
+	'libva-mesa-driver'
+	'lib32-libva-mesa-driver'
+	'mesa-vdpau'
+	'lib32-mesa-vdpau'
+)

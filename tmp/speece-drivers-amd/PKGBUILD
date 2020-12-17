@@ -1,0 +1,9 @@
+pkgname=speece-drivers-amd
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="speece-drivers-amd"
+arch=('any')
+license=('MIT')
+depends=(
+	'amd-ucode'
+)
