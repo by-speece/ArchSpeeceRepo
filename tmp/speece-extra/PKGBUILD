@@ -1,5 +1,5 @@
 pkgname=speece-extra
-pkgver=0.0.5
+pkgver=0.0.6
 pkgrel=1
 pkgdesc="Extra repo for apps"
 arch=('any')
