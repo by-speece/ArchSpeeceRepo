@@ -1,5 +1,5 @@
 pkgname=speece-extra
-pkgver=0.0.4
+pkgver=0.0.5
 pkgrel=1
 pkgdesc="Extra repo for apps"
 arch=('any')
@@ -25,5 +25,7 @@ depends=(
   'gtop'
   'adapta-gtk-theme'
   'noto-fonts'
+  'ttf-material-icons-git'
+  'clipit'
   'ttf-roboto'
 )
