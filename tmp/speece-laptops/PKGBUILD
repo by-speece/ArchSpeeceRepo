@@ -1,0 +1,10 @@
+pkgname=speece-laptops
+pkgver=1
+pkgrel=1
+pkgdesc="Zbiór pakietów stworzony z myślą o laptopach"
+arch=('any')
+depends=(
+	'xdotool'
+	'libinput-gestures'
+	'light'
+	)
